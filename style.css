@@ -133,6 +133,7 @@ header.header {
     width: 100%;
     color: var(--color-secondary);
     font-family: var(--font-nanum);
+    padding: 70px 0;
 }
 
 #hero-banner h1 {
@@ -144,6 +145,20 @@ header.header {
 }
 
 #hero-banner .image {
-    border-radius: 50px;
+    border-radius: 30px;
     overflow: hidden;
+}
+
+/* Search Section */
+
+#search-section .search-area {
+    border-radius: 80px;
+    padding: 25px 37px;
+}
+
+#search-section .search-area select {
+    padding: 3px 5px;
+    border: none;
+    outline: none;
+    width: 100%;
 }
