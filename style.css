@@ -202,3 +202,35 @@ header.header {
     height: 400px;
     object-fit: cover;
 }
+
+/* Services*/
+
+#services-section {
+    margin: 100px;
+    padding: 110px 0;
+    font-family: var(--font-nanum);
+}
+
+#services-section .services-show {
+    padding: 50px 23px;
+    text-align: center;
+    justify-self: center;
+    margin: 15px;
+}
+
+#services-section .h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#services-section p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#services-section .btn-theme-2{
+    top: 5%;
+    align-self: center;
+}
+
+
