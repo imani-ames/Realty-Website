@@ -284,3 +284,32 @@ header.header {
     overflow: hidden;
     object-fit: cover;
 }
+
+/* Newsletter */
+
+#newsletter-section {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    font-family: var(--font-nanum);
+    color: var(--color-secondary);
+}
+
+#newsletter-section .form {
+    border-radius: 30px;
+}
+
+#newsletter-section .form .btn-theme {
+    padding: 7px 50px;
+}
+
+#newsletter-section .form input {
+    padding: 7px 15px;
+    border-radius: 30px;
+}
+
+#newsletter-section .form input:focus {
+    box-shadow: none;
+}
+
+/* Footer */
