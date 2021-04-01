@@ -245,15 +245,17 @@ header.header {
 
 #property-section {
     font-family: var(--font-nanum);
+    color: var(--color-secondary);
     width: 100%;
     padding: 50px;
     background-color: #e9ecef;
-    color: var(--color-secondary);
 }
 
-#property-section h1 {
+#property-section h1  {
     font-weight: 600;
 }
+
+
 
 #property-section #property-slider {
     width: 100%;
@@ -313,3 +315,24 @@ header.header {
 }
 
 /* Footer */
+
+#footer{
+    width: 100%;
+    background-color: var(--color-secondary);
+    font-family: var(--font-nanum);
+    padding: 50px 0;
+    color: #ffff;
+
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul li a{
+    color: #ffff;
+    font-size: 15px;
+}
+
